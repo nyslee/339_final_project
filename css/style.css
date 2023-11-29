@@ -136,10 +136,10 @@ p {
     /* background-image: url('../images/main.jpeg'); */
 }
 
-#lamb-img {
+/* #lamb-img {
     grid-row: 2;
 
-}
+} */
 
 #mcl-img {
     grid-row: 3;
@@ -360,6 +360,7 @@ body{
     #mcl-img {
         grid-row: 3;
         grid-column: 2 / span 2;
+        margin-right: 650px;
     }
 
     #mcl720Img {
@@ -434,7 +435,7 @@ body{
     }
 
     #huracanImg {
-        height: 230px;
+        height: 230px; 
     }
 
     #aventadorImg {
