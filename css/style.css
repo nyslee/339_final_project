@@ -25,6 +25,8 @@ body{
     background-size: cover;       /* Parallax effect */
     color: white;
     height: 400px;                /* Parallax effect */
+    background-image: url('../images/main.jpeg');
+
 }
 
 
@@ -95,6 +97,10 @@ nav a:hover{
     text-decoration-thickness: 3px;
 }
 
+#navLeft {
+    margin-left: 20px;
+}
+
 .skip a{
     position: absolute;
     top: -40px;
@@ -109,7 +115,7 @@ nav a:hover{
 } 
 
 p {
-    line-height: 2.5;
+    line-height: 1.5;
     padding: 0 30px 30px 30px;
 }
 
@@ -122,15 +128,17 @@ p {
 .container div:first-child {
     grid-column: 1/-1;
     min-height: 500px;
-    background-image: url('../images/main.jpeg');
+    /* background-image: url('../images/main.jpeg'); */
 }
 
 #lamb-img {
     grid-row: 2;
+
 }
 
 #mcl-img {
     grid-row: 3;
+    margin-top: 60px;
 }
 
 #por-img {
@@ -142,6 +150,7 @@ p {
     width: 600px;
     height: 1px;
     perspective: 1000px; 
+    background-image: none !important;
 }
 
 .flip-card-inner {
@@ -153,7 +162,7 @@ p {
     transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner, .flip-card:focus .flip-card-inner {
     transform: rotateY(180deg);
 }
 
@@ -166,9 +175,10 @@ p {
 }
 
 .flip-card-back {
-    background-color: grey;
+    background-color: black;
     color: white;
     transform: rotateY(180deg);
+    border-radius: 30px;
 }
 
 .carmodels {
@@ -187,6 +197,113 @@ img, video {
     border-radius: 30px;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: grey;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.imgOverlay{
+  padding: 1em 0;
+  float: left;
+  width: 100%;
+}
+
+.imgOverlay .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 30px;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: white;
+  font-size: 0.8em;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
 @media screen and (min-width:768px){
     nav {
         text-align: right;
@@ -202,7 +319,7 @@ img, video {
     .container div:first-child {
         grid-column: 1/-1;
         min-height: 500px;
-        background-image: url('../images/main.jpeg');
+        /* background-image: url('../images/main.jpeg'); */
     }
 
     #lamb-img {
@@ -211,11 +328,11 @@ img, video {
     }
 
     #revueltoImg {
-        height: 235px;
+        height: 220px;
     }
 
     #aventadorImg {
-        height: 250px;
+        height: 227px;
     }
 
     #mcl-img {
@@ -224,11 +341,11 @@ img, video {
     }
 
     #mcl720Img {
-        height: 295px;
+        height: 275px;
     }
 
     #p1Img {
-        height: 295px;
+        height: 275px;
     }
 
     #por-img {
@@ -245,7 +362,7 @@ img, video {
     }
 
     #turboSImg {
-        height: 250px;
+        height: 230px;
     }
 
     .carmodels {
@@ -278,15 +395,15 @@ img, video {
     }
 
     #revueltoImg {
-        height: 320px;
+        height: 230px;
     }
 
     #huracanImg {
-        height: 320px;
+        height: 230px;
     }
 
     #aventadorImg {
-        height: 330px;
+        height: 230px;
     }
 
     #mcl-img {
@@ -295,15 +412,23 @@ img, video {
     }
 
     #mcl720Img {
-        height: 390px;
+        height: 275px;
     }
 
     #p1Img {
-        height: 390px;
+        height: 270px;
     }
 
     #mcl765LT {
-        height: 330px;
+        height: 240px;
+    }
+
+    #sennaImg {
+        height: 240px;
+    }
+
+    #gtImg {
+        height: 235px;
     }
 
     #por-img {
@@ -313,15 +438,15 @@ img, video {
     }
 
     #gt3rsImg {
-        height: 330px;
+        height: 230px;
     }
     
     #caymanImg {
-        height: 330px;
+        height: 230px;
     }
 
     #turboSImg {
-        height: 330px;
+        height: 230px;
     }
 
     .carmodels {

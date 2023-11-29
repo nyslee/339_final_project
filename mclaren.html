@@ -6,14 +6,15 @@
         <link rel="stylesheet" href ="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="dist/css/lightbox.css" rel="stylesheet">
+        <title>McLaren</title>
     </head>
     <body>
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <nav id="myNav">
             <ul>
-                <li><a href="index.html"> Home</a></li>
+                <li><a href="index.html" id="navLeft"> Home</a></li>
                 <li><a href="lamborghini.html"> Lamborghini</a></li> 
-                <li><a href="mclaren.html" class = "current"> McLaren</a></li>  
+                <li><a href="mclaren.html"> McLaren</a></li>  
                 <li><a href="porsche.html"> Porsche</a></li>  
             </ul>
         </nav>
@@ -21,24 +22,96 @@
             <header><h1>McLaren Models</h1></header>
             <!-- <p>McLaren sets itself apart in the supercar market with its Formula One-inspired engineering and technology, focusing on lightweight construction and advanced aerodynamics. Known for their sleek, functional designs, McLarens offer a driver-centric experience with responsive handling. The brand is a pioneer in hybrid supercar technology and maintains exclusivity through limited production and customization options. Drawing from its rich racing heritage, McLaren has carved a unique niche in the realm of high-performance luxury vehicles.</p> -->
             <div class = "carmodels">
-                <a href = "images/mcl-720s.jpeg" target="_blank" data-lightbox="mclModels" data-title="720s posing by mountain" data-alt="car posing by mountain">
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-720s.jpeg" target="_blank" data-lightbox="mclModels" data-title="720s posing by mountain" data-alt="car posing by mountain">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-720s.jpeg" alt = "mcl 720s" id="mcl720Img">
+                        <div class="content-details fadeIn-top">
+                            <h3>720S</h3>
+                            <p> Model Year: 2018 </br> 0-60: 2.8 seconds </br> Cost: $305,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-artura.avif" target="_blank" data-lightbox="mclModels" data-title="Artura posing on cliff overlooking ocean" data-alt="car posing on cliff overlooking ocean">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-artura.avif" alt = "mcl artura">
+                        <div class="content-details fadeIn-top">
+                            <h3>Artura</h3>
+                            <p> Model Year: 2023 </br> 0-60: 3.0 seconds </br> Cost: $233,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-p1.webp" target="_blank" data-lightbox="mclModels" data-title="P1 posing on road overlooking city by ocean" data-alt="car posing on road overlooking city by ocean">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-p1.webp" alt = "mcl p1" id="p1Img">
+                        <div class="content-details fadeIn-top">
+                            <h3>P1</h3>
+                            <p> Model Year: 2013 </br> 0-60: 2.6 seconds </br> Cost: $1,300,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-765lt.avif" target="_blank" data-lightbox="mclModels" data-title="765LT posing with mountain backdrop" data-alt="car posing with mountain backdrop">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-765lt.avif" alt = "mcl 765LT" id="mcl765LT">
+                        <div class="content-details fadeIn-top">
+                            <h3>765LT</h3>
+                            <p> Model Year: 2022 </br> 0-60: 2.7 seconds </br> Cost: $382,500</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-gt.webp" target="_blank" data-lightbox="mclModels" data-title="GT cruising through mountain roads" data-alt="car cruising through mountain roads">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-gt.webp" alt = "mcl gt" id="gtImg">
+                        <div class="content-details fadeIn-top">
+                            <h3>GT</h3>
+                            <p> Model Year: 2024 </br> 0-60: 3.1 seconds </br> Cost: $204,990</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href= "images/mcl-senna.webp" target="_blank" data-lightbox="mclModels" data-title="Senna posing in display room" data-alt="car posing in display room">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/mcl-senna.webp" alt = "mcl senna" id="sennaImg">
+                        <div class="content-details fadeIn-top">
+                            <h3>Senna</h3>
+                            <p> Model Year: 2020 </br> 0-60: 2.8 seconds </br> Cost: $1,050,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <a href = "images/mcl-720s.jpeg" target="_blank" data-lightbox="mclModels" data-title="720s posing by mountain" data-alt="car posing by mountain">
                     <img width = "200" src = "images/mcl-720s.jpeg" alt = "mcl 720s" id="mcl720Img">
-                </a>
-                <a href = "images/mcl-artura.avif" target="_blank" data-lightbox="mclModels" data-title="Artura posing on cliff overlooking ocean" data-alt="car posing on cliff overlooking ocean">
+                </a> -->
+                <!-- <a href = "images/mcl-artura.avif" target="_blank" data-lightbox="mclModels" data-title="Artura posing on cliff overlooking ocean" data-alt="car posing on cliff overlooking ocean">
                     <img width = "200" src = "images/mcl-artura.avif" alt = "mcl artura">
-                </a>
-                <a href = "images/mcl-p1.webp" target="_blank" data-lightbox="mclModels" data-title="P1 posing on road overlooking city by ocean" data-alt="car posing on road overlooking city by ocean">
+                </a> -->
+                <!-- <a href = "images/mcl-p1.webp" target="_blank" data-lightbox="mclModels" data-title="P1 posing on road overlooking city by ocean" data-alt="car posing on road overlooking city by ocean">
                     <img width = "200" src = "images/mcl-p1.webp" alt = "mcl p1" id="p1Img">
-                </a>
-                <a href = "images/mcl-765lt.avif" target="_blank" data-lightbox="mclModels" data-title="765LT posing with mountain backdrop" data-alt="car posing with mountain backdrop">
+                </a> -->
+                <!-- <a href = "images/mcl-765lt.avif" target="_blank" data-lightbox="mclModels" data-title="765LT posing with mountain backdrop" data-alt="car posing with mountain backdrop">
                     <img width = "200" src = "images/mcl-765lt.avif" alt = "mcl 765LT" id="mcl765LT">
-                </a>
-                <a href = "images/mcl-gt.webp" target="_blank" data-lightbox="mclModels" data-title="GT cruising through mountain roads" data-alt="car cruising through mountain roads">
+                </a> -->
+                <!-- <a href = "images/mcl-gt.webp" target="_blank" data-lightbox="mclModels" data-title="GT cruising through mountain roads" data-alt="car cruising through mountain roads">
                     <img width = "200" src = "images/mcl-gt.webp" alt = "mcl gt">
-                </a>
-                <a href = "images/mcl-senna.webp" target="_blank" data-lightbox="mclModels" data-title="Senna posing in display room" data-alt="car posing in display room">
+                </a> -->
+                <!-- <a href = "images/mcl-senna.webp" target="_blank" data-lightbox="mclModels" data-title="Senna posing in display room" data-alt="car posing in display room">
                     <img width = "200" src = "images/mcl-senna.webp" alt = "mcl senna">
-                </a>
+                </a> -->
             </div>
         </main>
         <script src="dist/js/lightbox-plus-jquery.js"></script>

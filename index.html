@@ -7,15 +7,16 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="dist/css/lightbox.css" rel="stylesheet">
         <title>Supercars</title>
+        <script src="https://kit.fontawesome.com/1951e1bc60.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <nav id="myNav">
             <ul>
-                <li><a href="index.html" class = "current"> Home</a></li>
-                <li><a href="lamborghini.html"> Lamborghini</a></li> 
-                <li><a href="mclaren.html"> McLaren</a></li>  
-                <li><a href="porsche.html"> Porsche</a></li>  
+                <li><a href="index.html" id="navLeft"> <!--<i class="fa-solid fa-house"></i>-->Home</a></li>
+                <li><a href="lamborghini.html"> <!--<i class="fa-solid fa-shield"></i>-->Lamborghini</a></li> 
+                <li><a href="mclaren.html"> <!--<i class="fa-solid fa-moon"></i>-->McLaren</a></li>  
+                <li><a href="porsche.html"> <!--<i class="fa-solid fa-horse"></i>-->Porsche</a></li>  
             </ul>
         </nav>
         <main class="container" id = "main">
@@ -24,43 +25,49 @@
               <p>High-performance sports cars, notable for their exceptional speed, power, and appearance. They represent the pinnacle of automotive engineering and design. 
             </div>
       
-            <!-- <div class = "flip-card">
-                <div class = "flip-card-inner">
-                    <div class="flip-card-front" id="lamb-img">
-                      <img src="images/lamb-img.jpeg" alt=""/>
-                    </div>
-                    <div class = "flip-card-back">
-                        <h1>Lamborghini</h1>
-                        <p>Founded in 1963, Automobili Lamborghini is headquartered in Sant’Agata Bolognese, in Northern Italy. <br><br> Lamborghini currently produces two super sports car models, the V12-powered Aventador, launched in 2011, and the V10-powered Huracán, launched in 2014, along with the Urus Super SUV powered by a twin-turbo V8 engine, launched in 2017. <br><br> For over half a century Automobili Lamborghini created a continuous series of dream cars, including the 350 GT, Miura, Espada, Countach, Diablo, and Murciélago, as well as limited editions such as the Reventón, Sesto Elemento, Veneno and the Centenario. With the unveiling in 2019 of the Lamborghini Sián FKP 37, a few-off build of only 63 units, the company delivers unique new hybrid technologies, featuring the world-first application of a supercapacitor for hybridization, new materials technology, and unsurpassed Lamborghini performance.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class = "flip-card">
-                <div class = "flip-card-inner">
-                    <div class="flip-card-front" id="mcl-img">
-                      <img src="images/mcl-img.jpeg" alt=""/>
-                    </div>
-                    <div class = "flip-card-back">
-                        <h1>Lamborghini</h1>
-                        <p>Founded in 1963, Automobili Lamborghini is headquartered in Sant’Agata Bolognese, in Northern Italy. <br><br> Lamborghini currently produces two super sports car models, the V12-powered Aventador, launched in 2011, and the V10-powered Huracán, launched in 2014, along with the Urus Super SUV powered by a twin-turbo V8 engine, launched in 2017. <br><br> For over half a century Automobili Lamborghini created a continuous series of dream cars, including the 350 GT, Miura, Espada, Countach, Diablo, and Murciélago, as well as limited editions such as the Reventón, Sesto Elemento, Veneno and the Centenario. With the unveiling in 2019 of the Lamborghini Sián FKP 37, a few-off build of only 63 units, the company delivers unique new hybrid technologies, featuring the world-first application of a supercapacitor for hybridization, new materials technology, and unsurpassed Lamborghini performance.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class = "flip-card">
-                <div class = "flip-card-inner">
-                    <div class="flip-card-front" id="por-img">
-                      <img src="images/por-img.jpeg" alt=""/>
-                    </div>
-                    <div class = "flip-card-back">
-                        <h1>Lamborghini</h1>
-                        <p>Founded in 1963, Automobili Lamborghini is headquartered in Sant’Agata Bolognese, in Northern Italy. <br><br> Lamborghini currently produces two super sports car models, the V12-powered Aventador, launched in 2011, and the V10-powered Huracán, launched in 2014, along with the Urus Super SUV powered by a twin-turbo V8 engine, launched in 2017. <br><br> For over half a century Automobili Lamborghini created a continuous series of dream cars, including the 350 GT, Miura, Espada, Countach, Diablo, and Murciélago, as well as limited editions such as the Reventón, Sesto Elemento, Veneno and the Centenario. With the unveiling in 2019 of the Lamborghini Sián FKP 37, a few-off build of only 63 units, the company delivers unique new hybrid technologies, featuring the world-first application of a supercapacitor for hybridization, new materials technology, and unsurpassed Lamborghini performance.</p>
-                    </div>
-                </div>
-            </div> -->
-      
             <div class="lamborghini-image" id="lamb-img">
+                <div class = "flip-card" tabindex="0">
+                    <div class = "flip-card-inner">
+                        <div class="flip-card-front" id="lamb-img">
+                          <img src="images/lamb-img.jpeg" alt=""/>
+                        </div>
+                        <div class = "flip-card-back">
+                            <h1>Lamborghini</h1>
+                            <p>Lamborghini distinguishes itself in the supercar world with its bold, angular designs and high-performance V10 and V12 engines, known for thrilling acceleration and sound. The brand, established in 1963, is celebrated for its innovation, particularly in materials and aerodynamics, and maintains a prestigious heritage. Lamborghini's exclusivity is underscored by limited production, luxurious, customizable interiors, and a notable presence in GT racing. These factors collectively forge Lamborghini's unique identity among luxury supercars.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mclaren-image" id="mcl-img">
+                <div class = "flip-card" tabindex="0">
+                    <div class = "flip-card-inner">
+                        <div class="flip-card-front" id="mcl-img">
+                          <img src="images/mcl-img.jpeg" alt=""/>
+                        </div>
+                        <div class = "flip-card-back">
+                            <h1>McLaren</h1>
+                            <p>McLaren sets itself apart in the supercar market with its Formula One-inspired engineering and technology, focusing on lightweight construction and advanced aerodynamics. Known for their sleek, functional designs, McLarens offer a driver-centric experience with responsive handling. The brand is a pioneer in hybrid supercar technology and maintains exclusivity through limited production and customization options. Drawing from its rich racing heritage, McLaren has carved a unique niche in the realm of high-performance luxury vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="porsche-image" id="por-img">
+                <div class = "flip-card" tabindex="0">
+                    <div class = "flip-card-inner">
+                        <div class="flip-card-front" id="por-img">
+                          <img src="images/por-img.jpeg" alt=""/>
+                        </div>
+                        <div class = "flip-card-back">
+                            <h1>Porsche</h1>
+                            <p>Porsche distinguishes itself in the supercar market with a unique blend of versatile performance, suitable for both track and road. Known for precise engineering, iconic design, especially in the 911 series, and reliability, Porsche supercars are also designed for everyday usability. The brand leads in technological innovation, including hybrid and electric vehicles, and benefits from a rich motorsport heritage. Offering a diverse range of models, Porsche combines performance with practicality and luxury, establishing a distinctive presence in the world of high-performance vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+      
+            <!-- <div class="lamborghini-image" id="lamb-img">
                 <img src="images/lamb-img.jpeg" alt=""/>
             </div>
 
@@ -70,7 +77,7 @@
       
             <div class="porsche-image" id="por-img">
               <img src="images/por-img.jpeg" alt=""/>
-            </div>
+            </div> -->
         </main>
         <script src="js/jsAdditions.js"></script>
             <footer>

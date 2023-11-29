@@ -6,39 +6,112 @@
         <link rel="stylesheet" href ="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="dist/css/lightbox.css" rel="stylesheet">
+        <title>Porsche</title>
     </head>
     <body>
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <nav id="myNav">
             <ul>
-                <li><a href="index.html"> Home</a></li>
+                <li><a href="index.html" id="navLeft"> Home</a></li>
                 <li><a href="lamborghini.html"> Lamborghini</a></li> 
                 <li><a href="mclaren.html"> McLaren</a></li>  
-                <li><a href="porsche.html" class = "current"> Porsche</a></li>  
+                <li><a href="porsche.html"> Porsche</a></li>  
             </ul>
         </nav>
         <main id = "main">
             <header><h1>Porsche Models</h1></header>
             <!-- <p>Porsche distinguishes itself in the supercar market with a unique blend of versatile performance, suitable for both track and road. Known for precise engineering, iconic design, especially in the 911 series, and reliability, Porsche supercars are also designed for everyday usability. The brand leads in technological innovation, including hybrid and electric vehicles, and benefits from a rich motorsport heritage. Offering a diverse range of models, Porsche combines performance with practicality and luxury, establishing a distinctive presence in the world of high-performance vehicles.</p> -->
             <div class = "carmodels">
-                <a href = "images/por-911-gtr3s.jpeg" target="_blank" data-lightbox="porModels" data-title="Gt3rs cruising down track" data-alt="car cruising through track">
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-911-gtr3s.jpeg" target="_blank" data-lightbox="porModels" data-title="Gt3rs cruising down track" data-alt="car cruising through track">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-911-gtr3s.jpeg" alt = "por gt3rs" id="gt3rsImg">
+                        <div class="content-details fadeIn-top">
+                            <h3>GT3 RS</h3>
+                            <p> Model Year: 2023 </br> 0-60: 3.0 seconds </br> Cost: $223,800</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-718-cayman.jpeg" target="_blank" data-lightbox="porModels" data-title="Cayman cruising down track" data-alt="car driving through track">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-718-cayman.jpeg" alt = "por cayman" id="caymanImg">
+                        <div class="content-details fadeIn-top">
+                            <h3>718 Cayman</h3>
+                            <p> Model Year: 2017 </br> 0-60: 4.7 seconds </br> Cost: $68,300</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-718-spyder-rs.avif" target="_blank" data-lightbox="porModels" data-title="Spyder posing on road" data-alt="car posing on road">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-718-spyder-rs.avif" alt = "por spyder">
+                        <div class="content-details fadeIn-top">
+                            <h3>718 Spyder RS</h3>
+                            <p> Model Year: 2024 </br> 0-60: 3.2 seconds </br> Cost: $160,700</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-911-carrera-t.webp" target="_blank" data-lightbox="porModels" data-title="Carrera posing on hilly road" data-alt="car posing on hilly road">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-911-carrera-t.webp" alt = "por carrera">
+                        <div class="content-details fadeIn-top">
+                            <h3>911 Carrera</h3>
+                            <p> Model Year: 2023 </br> 0-60: 4.0 seconds </br> Cost: $114,400</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-911-turbo-s.jpeg" target="_blank" data-lightbox="porModels" data-title="Turbo S cruising through desert roads" data-alt="car cruising through desert roads">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-911-turbo-s.jpeg" alt = "por turbo s" id="turboSImg">
+                        <div class="content-details fadeIn-top">
+                            <h3>911 Turbo S</h3>
+                            <p> Model Year: 2024 </br> 0-60: 2.6 seconds </br> Cost: $230,400</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgOverlay">
+                    <div class="content">
+                        <a href="images/por-macan-s.webp" target="_blank" data-lightbox="porModels" data-title="Macan cruising through mountain roads" data-alt="car cruising through mountain roads">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src = "images/por-macan-s.webp" alt = "por macan">
+                        <div class="content-details fadeIn-top">
+                            <h3>Macan</h3>
+                            <p> Model Year: 2023 </br> 0-60: 4.3 seconds </br> Cost: $60,900</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <a href = "images/por-911-gtr3s.jpeg" target="_blank" data-lightbox="porModels" data-title="Gt3rs cruising down track" data-alt="car cruising through track">
                     <img width = "200" src = "images/por-911-gtr3s.jpeg" alt = "por gt3rs" id="gt3rsImg">
-                </a>
-                <a href = "images/por-718-cayman.jpeg" target="_blank" data-lightbox="porModels" data-title="Cayman cruising down track" data-alt="car driving through track">
+                </a> -->
+                <!-- <a href = "images/por-718-cayman.jpeg" target="_blank" data-lightbox="porModels" data-title="Cayman cruising down track" data-alt="car driving through track">
                     <img width = "200" src = "images/por-718-cayman.jpeg" alt = "por cayman" id="caymanImg">
-                </a>
-                <a href = "images/por-718-spyder-rs.avif" target="_blank" data-lightbox="porModels" data-title="Spyder posing on road" data-alt="car posing on road">
+                </a> -->
+                <!-- <a href = "images/por-718-spyder-rs.avif" target="_blank" data-lightbox="porModels" data-title="Spyder posing on road" data-alt="car posing on road">
                     <img width = "200" src = "images/por-718-spyder-rs.avif" alt = "por spyder">
-                </a>
-                <a href = "images/por-911-carrera-t.webp" target="_blank" data-lightbox="porModels" data-title="Carrera posing on hilly road" data-alt="car posing on hilly road">
+                </a> -->
+                <!-- <a href = "images/por-911-carrera-t.webp" target="_blank" data-lightbox="porModels" data-title="Carrera posing on hilly road" data-alt="car posing on hilly road">
                     <img width = "200" src = "images/por-911-carrera-t.webp" alt = "por carrera">
-                </a>
-                <a href = "images/por-911-turbo-s.jpeg" target="_blank" data-lightbox="porModels" data-title="Turbo S cruising through desert roads" data-alt="car cruising through desert roads">
+                </a> -->
+                <!-- <a href = "images/por-911-turbo-s.jpeg" target="_blank" data-lightbox="porModels" data-title="Turbo S cruising through desert roads" data-alt="car cruising through desert roads">
                     <img width = "200" src = "images/por-911-turbo-s.jpeg" alt = "por turbo s" id="turboSImg">
-                </a>
-                <a href = "images/por-macan-s.webp" target="_blank" data-lightbox="porModels" data-title="Macan cruising through mountain roads" data-alt="car cruising through mountain roads">
+                </a> -->
+                <!-- <a href = "images/por-macan-s.webp" target="_blank" data-lightbox="porModels" data-title="Macan cruising through mountain roads" data-alt="car cruising through mountain roads">
                     <img width = "200" src = "images/por-macan-s.webp" alt = "por macan">
-                </a>
+                </a> -->
             </div>
         </main>
         <script src="dist/js/lightbox-plus-jquery.js"></script>
